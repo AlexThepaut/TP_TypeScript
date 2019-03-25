@@ -1,5 +1,8 @@
+import { Genre } from 'person-module/Person';
+import { Formateur, Connaissance } from 'person-module/Formateur';
+import { Stagiaire, Certification } from 'person-module/Stagiaire';
+import { Formation } from 'person-module/Formation';
 
-import { Formateur, Connaissance, Genre, Certification, Stagiaire, Formation } from './Person';
 
 let nico: Formateur = new Formateur(
     "Hodicq", "Nico",
