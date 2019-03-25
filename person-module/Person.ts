@@ -23,7 +23,7 @@ export class Person {
 
     boire(){
         if(this.boisson){
-            return `${this.boisson.nom} => alcool: ${this.boisson.isAlcool}, Bio: ${this.boisson.isBio}`;
+            return `${this.boisson.nom} => alcool: ${this.boisson.isAlcool}, bio: ${this.boisson.isBio}`;
         }else{
             return 'Ne boit pas';
         }
